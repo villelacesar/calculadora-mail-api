@@ -10,6 +10,9 @@ export class TemplateService {
 
     return await nodeHtmlToImage({
       html: htmlBuffer.toString(),
+      puppeteerArgs: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      },
       content: {
         ...mailDto,
         headerImg: FileUtil.getBase64Image('banner-greenlog.png'),
