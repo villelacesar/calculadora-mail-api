@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <title>CO2</title>
+  <script
+    src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css"
+    defer></script>
+
+  <style type="text/css">
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    body {
+      width: 567px;
+      max-width: 567px;
+    }
+
+    .body-container {
+      width: 567px;
+      max-width: 567px;
+      background-color: #fef7de;
+    }
+
+    .img-banner {
+      display: block;
+    }
+
+    .img-logo {
+      display: block;
+      text-align: center;
+      z-index: 1;
+      margin-top: -68px;
+    }
+
+    .text1 {
+      background-color: #fef7de;
+      margin-top: 32px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Arial Black', sans-serif;
+      font-size: 32px;
+      color: #008482;
+    }
+
+    .text2 {
+      width: 100%;
+      text-align: center;
+      font-family: 'Arial Black', sans-serif;
+      font-size: 32px;
+      color: #008482;
+    }
+
+    .text3 {
+      width: 100%;
+      text-align: center;
+      font-family: 'Arial Black', sans-serif;
+      font-size: 32px;
+      color: #008482;
+    }
+
+    .text4 {
+      margin-top: 32px;
+      width: 100%;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #595959;
+    }
+
+    .blocktext4 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 288px;
+    }
+
+    div.text5 {
+      width: 100%;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 44px;
+      color: #008482;
+    }
+
+    .text6 {
+      width: 100%;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #595959;
+    }
+
+    .box-green {
+      margin-top: 32px;
+      background-color: #008482;
+      width: 100%;
+      height: 132px;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+    }
+
+    .box-green-table {
+      width: 100%;
+    }
+
+    .box-green-car,
+    .box-green-tree {
+      text-align: center;
+      vertical-align: bottom;
+    }
+
+    .box-green-tree-p,
+    .box-green-car-p {
+      text-align: center;
+      width: 50%;
+    }
+
+    .box-green-text {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      text-align: center;
+      color: #fef7de;
+      margin: 0 38px;
+    }
+
+    .text9 {
+      margin-top: 32px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #595959;
+      width: 416px;
+    }
+
+    .box-final {
+      margin-top: 32px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .footer {
+      margin-top: 32px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="body-container">
+
+  <div class="img-banner">
+    <img src="{{headerImg}}" />
+  </div>
+
+  <div class="text1">
+    <span>{{origem}}</span>
+  </div>
+  <div class="text2">
+    <p>X</p>
+  </div>
+  <div class="text3">
+    <span>{{destino}}</span>
+  </div>
+
+  <div class="text6">
+    <strong class="span-poxa">Poxa, que pena ;(</strong>
+  </div>
+
+  <div class="text9">
+    <p>
+      Nosso algoritmo não conseguiu identificar uma malha ferroviária viável para o trecho informado.
+    </p>
+  </div>
+
+  <div class="text9">
+    <p>
+      Mas não se preocupe, pois o primeiro passo já foi dado. Estamos com os seus dados e entraremos em contato
+      para entender mais de perto as possíveis demandas.
+    </p>
+  </div>
+  <div class="box-final">
+    <img src="{{dizersimImg}}" alt="dizersim" />
+  </div>
+  <div class="footer">
+    <img src="{{footerImg}}" alt="footer" />
+  </div>
+</div>
+</body>
+</html>
