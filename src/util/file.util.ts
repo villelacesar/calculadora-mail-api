@@ -15,6 +15,8 @@ export class FileUtil {
   }
 
   private static fsReadFile(directory: string, fileName: string): Buffer {
-    return fs.readFileSync(`${process.cwd()}/${directory}/${fileName}`);
+    const cwd = process.cwd();
+    console.log(`process cwd: `, cwd);
+    return fs.readFileSync(`${cwd}/${directory}/${fileName}`);
   }
 }
