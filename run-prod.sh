@@ -19,7 +19,7 @@ pm2 start dist/main.js --name template
 
 echo "3 de 3 - Calculadora (processador das informacoes) #JAVA"
 
-pm2 start java -- -jar $2 --name calculadora
+pm2 start java -- -jar -Duser.language=pt-BR $2 --name calculadora
 
 echo "Lista de Serviços"
 pm2 ls
